@@ -1,0 +1,77 @@
+/*TAMAÑOS ESTANDAR DE DISPOSITIVOS
+XS < 576PX MOVILES PEQUEÑOS
+SMALL >=576 MOVIL STANDARD
+MEDIUM >= 768PX TABLET
+LARGE >= 992PX TABLET GRANDE O ESCRITORIO
+EXTRA LARGE >=  1200PX  ESCRITORIO
+EXTRA EXTRA LARGE >= 1400PX SUPER ESCRITORIO
+    
+*/
+
+
+body {
+  background-color: #8c030e;
+  width: 95%;
+  height: 640px;
+}
+h1 {
+  font-size: 30px;
+  background-color: #a62139;
+  text-align: center;
+}
+h2 {
+  background-color: #6d96a6;
+}
+h3 {
+  background-color: #d9d9d2;
+}
+
+/* section{
+    display: none;
+}
+article:hover section{
+    display: block;
+} */
+main {
+  background-color: #253340;
+  text-align: center;
+  width: 100%;
+}
+footer {
+  background-color: #a62139;
+  width: 100%;
+  height: 180px;
+  display: block;
+}
+
+footer div {
+  width: 98%;
+  height: 80px;
+  background-color: #6d96a6;
+  margin: 9px;
+}
+
+@media (min-width: 650px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2{
+    font-size: 30px;
+  }
+  h3{
+    font-size: 25px;
+  }
+  p{font-size: 20px;}
+  footer {
+    height: 500px;
+  }
+  footer div{
+    height: 230px;
+  }
+}
+
+@media (min-width:800px){
+    h2{
+        background-color: aqua;
+    }
+}

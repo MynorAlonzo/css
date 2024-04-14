@@ -1,0 +1,27 @@
+/*
+float: right;
+float: left;
+float: none;
+clear: left;
+clear: right;
+clear: both;*/
+
+.container{
+    width: 500px;
+    height: 500px;
+    border: 3px solid black;
+}
+
+.box1{
+    width: 100px;
+    height: 100px;
+background-color: brown;
+float: left;
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+  /*  clear: both;*/
+  float: right;
+}

@@ -1,0 +1,16 @@
+div{
+    display: flex;
+/*    margin-top: 50px; /*margen arriba*/
+/*    margin-right: 40px; /* margen derecho*/
+/*    margin-bottom: 30px; /* margen abajo*/
+ /*   margin-left: 100px; /*margen izquierdo*/
+
+    margin: 10px 10px 10px 0px;
+
+}
+h1{border: 3px solid red;
+padding: 20px; /* espacio entre el elemento y el border*/
+}
+header{
+    border: 5px solid black;
+}

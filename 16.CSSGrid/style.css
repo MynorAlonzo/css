@@ -1,0 +1,42 @@
+/*
+
+grid container es el padre
+
+grid lines lineas verticales y horizontales
+
+grid track columnas y filas
+
+grid cell una celda
+
+grid area un area de varias celdas
+
+grid items lo que va dentro del container
+
+
+*/.container{
+border: 3px solid black;
+width: 500px;
+height: 500px;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: repeat(4, 1fr);
+/*grid-gap: 3px;
+*/
+column-gap: 3px;
+row-gap: 10px;
+}
+
+.box{
+    border: 1px solid black
+}
+.box1{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: crimson;
+}
+.box5{
+   /*  grid-row-start: 1;
+    grid-row-end: 2; */
+}
